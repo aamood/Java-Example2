@@ -1,0 +1,19 @@
+
+public abstract class Auto {
+	String make;
+	String price;
+	
+	public String getMake(){
+		return make;
+	}
+	
+	public void setMake(String mk){
+		make = mk;
+	}
+
+	public String getPrice(){
+		return price;
+	}
+	
+	public abstract void setPrice(String pc);
+}

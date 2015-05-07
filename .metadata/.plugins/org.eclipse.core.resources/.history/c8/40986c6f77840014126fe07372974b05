@@ -1,0 +1,6 @@
+
+public class Chevy {
+	public void setPrice(){
+		price = 20000;
+	}
+}
